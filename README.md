@@ -22,7 +22,10 @@ Student class should have the following instance attributes:
 `first_name*, last_name*, nationality*, student_id*, gpa, classification*, advisor, major, second_major, minor, courses_taken, courses_enrolled`
 
 Course class should have the following instance attributes:
-`course_id*, course_name*, instructor*, max_seats, enrolled_students, classroom*, start_time, end_time, course_days, hybrid
+`course_id*, course_name*, instructor*, max_seats, enrolled_students, classroom*, start_time, end_time, course_days, hybrid`
+
+Professor class should have the following instance attributes:
+`first_name*, last_name*, specialty*, courses_taught, office_location*, office_hours_start, office_hours_stop, office_hour_days, salary*, tenure*`
 
 
 
