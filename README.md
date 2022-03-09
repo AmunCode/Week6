@@ -11,9 +11,18 @@ Flight class should have the following instance attributes:
 `origination_city*, destination_city*, plane_model*, total_seats, available_seats, occupide_seats, layover_city, departure_time*, arrival_time*, cost*`
 
 Destination class should have: 
+`name, 
 
+Team 2 will build an online retail business. Starting with Classes of Sku, Channel, Vendor.
 
-Team 2 will build an online retail business. Starting with Classes of SKU, Channel, Vendor.
+Sku class should have the following instance attributes:
+`part_number*, manufacturer*, model*, condition, color, weight*, dimension*, quantity*, warehouse_location*, vendor`
+
+Channel class should have the following instance attributes:
+`name*, account_manager*, marketplace_fee_percentage, transaction_fees, type*, refund_policy, warranty_policy, content_manager`
+
+Vendor class should have the following instance attributes: 
+`name*, sales_contact*, street_adress, city*, state, zip, account_number*, payment_terms,  
 
 
 Team 3 will build a university platform. Starting with Classes of Student, Course, Professor. 
